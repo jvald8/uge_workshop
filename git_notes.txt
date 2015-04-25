@@ -1,0 +1,19 @@
+Stuff I've learned about git:
+- branching kind of creates a copy of a branch with a new name. These will have the same exact log information as the copied branch, master in this case.
+
+.git is a hidden file in the git directory, it's best not to erase it or git will not work.
+
+Commands:
+
+git init
+
+git status
+
+git add
+ git add .
+
+git commit -m
+
+-m is always needed, but if it's not included a file will open up for you to write in a message
+
+git -rm --cached <file>
