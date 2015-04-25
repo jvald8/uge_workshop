@@ -1,0 +1,545 @@
+cd
+#change directory
+
+pwd
+#present working directory
+
+echo $HOME
+#prints the home directory path
+
+history | less
+#prints out and paginates
+
+history | more
+# more dumps you out to the command line when you reach the end
+more
+
+history
+#history prints out the commands you made over a certain amount of time.
+
+history man ls
+# opens the manual for the ls command or the
+
+history man
+history 5
+#fish doesn't behave in the same way that the bash line does
+
+history 100
+history -r
+echo $history
+cd ...
+cd Desktop
+cd ..
+
+#ls -a lists all of the files including the hidden files
+ls -a
+
+ls .
+# cd ../.. will change the directory the grandparent.
+
+cd ../..
+cd my_really_cool_project
+ls
+cd
+man ls
+man -l
+-l
+man
+ls -r
+ls -rt
+ls -t
+ls -l
+cd /
+cd ~
+curl --help
+git --version
+which git
+echo $host
+echo $hostname
+echo $histsize
+echo $HOME
+echo $history
+echo $PATH
+echo $EDITOR
+brew install git
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.name "Jon Ringvald"
+git config --global user.email "jvald8@gmail.com"
+subl /etc/paths
+ECHO $PATH
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+mongod
+ps ax | grep mongod
+kill -9 6502
+kill - 9 6502
+kill -9 98555
+ssh bandit15@bandit.labs.overthewire.org
+ssh bandit13@bandit.labs.overthewire.org
+ssh bandit12@bandit.labs.overthewire.org
+ssh bandit11@bandit.labs.overthewire.org
+ssh bandit10@bandit.labs.overthewire.org
+ssh bandit9@bandit.labs.overthewire.org
+ssh bandit8@bandit.labs.overthewire.org
+ssh bandit7@bandit.labs.overthewire.org
+ssh bandit6@bandit.labs.overthewire.org
+ssh bandit5@bandit.labs.overthewire.org
+ssh bandit4@bandit.labs.overthewire.org
+bandit4@bandit.labs.overthewire.org
+ssh bandit3@bandit.labs.overthewire.org
+bandit3@bandit.labs.overthewire.org
+ssh bandit2@bandit.labs.overthewire.org
+ssh bandit1@bandit.labs.overthewire.org
+bandit1@bandit.labs.overthewire.org
+ssh bandit0@bandit.labs.overthewire.org
+ssh bandit.labs.overthewire.org
+mongodb
+sudo chown 'jonathanringvald' /data/db
+sugo chown 'jonathanringvald' /data/db
+learn
+mongod --dbpath /data/db/
+sudo chown 'id -u' /data/db
+sudo chown 'id u' /data/db
+sudo mkdir -p /data/db/
+node
+mongod --dbpath /data/db
+mkdir -p /data/db
+mongod --dbpath /Desktop/app/
+mongod --dbpath /app
+mongod --dbpath /srv/mongodb
+mongo
+quit()
+npm start
+npm install
+cd angular-seed
+git clone https://github.com/angular/angular-seed.git
+git
+git clone git@github.com:angular/angular-seed.git
+cd Development
+mv index.ejs /redditClone/views
+mv index.ejs redditClone/views/
+mv index.js redditClone/views
+mv index.ejs.html index.ejs
+cd Desktop/RedditClone
+cd models
+mkdir models
+npm install --save mongoose
+cd redditClone
+express --ejs redditClone
+sudo npm install -g express-generator
+cd..
+cd.
+..cd
+. cd
+.cd
+.. cd
+cd RedditClone
+express --ejs RedditClone
+npm install express-generator
+npm install -g express -generator
+npm install -g express-generator
+redis-cli
+redis-server
+brew install redis
+git status
+git commit -m "adding more stuff to git"
+git add .
+git commit -m "add stuff to public server"
+git add . -m "adding stuff to public server"
+git add
+node app
+vim app.js
+vim lib/broadcast.js
+vim models/badges.js
+vim controllers/badges.js
+touch lib/broadcast.js
+touch lib/socket.js
+cd pubsub
+cd .
+vim public/js/souptobits.js
+git init
+gs
+curl http://code.jquery.com/jquery-1.11.2.min.js > public/js/jquery.js
+mkdir public/css
+mkdir public/js
+vim lib/subscribe.js
+touch app.js
+mkdir public
+mkdir lib
+npm install axon express socket.io request --save
+npm init
+clear
+c
+curl http://localhost:8000/badges
+curl http//localhost:8000/badges
+curl -X POST http://localhost:8000 -H "content-type: application/json" -d '[{"badge_id":"foo bar badge"}]'
+curl -X POST http://localhost:8000 > -H "content-type: application/json" > -d '[{"badge_id":"foo bar badge"}]'
+curl -i -X POST http://localttp://localhost:8000
+curl -i -X POST http://localhost:8000
+python --version
+pip -version
+pip --version
+curl -X POST http://localhos://localhost:8000
+curl -X POST -d app.js http://localhost:8000
+curl http://localhost:8080
+curl -x http://localhost:8080
+curl -d http://localhost:8080
+curl --app.js http://localhost:8080
+http POST http://localhost:8080
+cd webserver
+vim controllers/badge.js
+curl -i -X http://localhost:8000
+curl -i -X http:localhost:8000
+fg
+mkdir controllers
+vim .app.js
+vim .gitignore
+cat node_modules/express/package.json
+cat npm_modules/express/package.json
+cat package.json
+vim package.json
+npm install express axon redis underscore --save
+npm install express axon redis underscore
+rm -r my_first_repository
+rf -r my_first_repository
+git init my_first_repository
+git push -u origin master
+git remote add origin git@github.com:jvald8/souptobitspubsub.git
+git add remote git@github.com:jvald8/souptobitspubsub.git
+ssh https://github.com/jvald8/souptobitspubsub.git
+git remote add git remote add github git@github.com:jvald8/Websites
+git@github.com:jvald8/souptobitspubsub.git
+ssh git@github.com:jvald8/souptobitspubsub.git
+ssh jvald8@github.com
+git inti
+mkdir webserver
+mkdir pubsub
+cd soup
+mkdir soup
+cd codeschool
+mkdir codeschool
+cd Websites
+mkdir Websites
+bandit5@bandit.labs.overthewire.org
+ssh bandit4@bandit.labs.overthwire.org
+bandit3@bandit.labs.overthwire.org
+bandit2@bandit.labs.overthewire.org
+git checkout master
+git checkout 48c3e8
+git log
+cd ./my_really_cool_project
+git commit -m "Changes to file2"
+git add file2
+git commit -m "Change file1"
+git add file1
+nano file2
+nano file1
+git commit -m "Add new project files"
+cd jonathanringvald
+cd Users
+cd ./
+git commit
+git add
+git add -a
+git commit -a -m "Add project mission statement"
+nano README
+ls-a
+git add README
+rm -r my_even_cooler_project/.git
+mv my_first_repository/ my_even_cooler_project
+touch file3
+touch file2
+touch file1
+mkdir my_really_cool_project
+cd my_first_repository
+ssh bandit5@banditlabs.overthewire.org
+ssh jonathanringvald@bandit.labs.overthewire.org
+jonathanringvald@bandit.labs.overthewire.org
+node --version
+make && make install
+./configure --prefix=$HOME/.node
+cd node
+cd node-v0.10.35.tar.gz
+tar xvf node-v0.10.35.tar.gz
+curl -O http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+gcc --version
+gcc
+gcc -h
+gcc help
+gcc -V
+python -V
+python -h
+python -version
+which node && which npm
+brew install curl
+brew install mongodb
+brew doctor
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ls -l moving_around.txt
+ls -l
+ls
+subl moving_around.txt
+ls dsifuhsdiu.txt
+ls moving_around.txt
+cat moving_around.txt
+history > moving_around.txt
+cd
+pwd
+echo $HOME
+history | less
+history | more
+more
+history
+history man ls
+history man
+history 5
+history 100
+history -r
+echo $history
+cd ...
+cd Desktop
+cd ..
+ls -a
+ls .
+cd ../..
+cd my_really_cool_project
+cd
+man ls
+man -l
+-l
+man
+ls -r
+ls -rt
+ls -t
+cd /
+cd ~
+curl --help
+git --version
+which git
+echo $host
+echo $hostname
+echo $histsize
+echo $HOME
+echo $history
+echo $PATH
+echo $EDITOR
+brew install git
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.name "Jon Ringvald"
+git config --global user.email "jvald8@gmail.com"
+subl /etc/paths
+ECHO $PATH
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+mongod
+ps ax | grep mongod
+kill -9 6502
+kill - 9 6502
+kill -9 98555
+ssh bandit15@bandit.labs.overthewire.org
+ssh bandit13@bandit.labs.overthewire.org
+ssh bandit12@bandit.labs.overthewire.org
+ssh bandit11@bandit.labs.overthewire.org
+ssh bandit10@bandit.labs.overthewire.org
+ssh bandit9@bandit.labs.overthewire.org
+ssh bandit8@bandit.labs.overthewire.org
+ssh bandit7@bandit.labs.overthewire.org
+ssh bandit6@bandit.labs.overthewire.org
+ssh bandit5@bandit.labs.overthewire.org
+ssh bandit4@bandit.labs.overthewire.org
+bandit4@bandit.labs.overthewire.org
+ssh bandit3@bandit.labs.overthewire.org
+bandit3@bandit.labs.overthewire.org
+ssh bandit2@bandit.labs.overthewire.org
+ssh bandit1@bandit.labs.overthewire.org
+bandit1@bandit.labs.overthewire.org
+ssh bandit0@bandit.labs.overthewire.org
+ssh bandit.labs.overthewire.org
+mongodb
+sudo chown 'jonathanringvald' /data/db
+sugo chown 'jonathanringvald' /data/db
+learn
+mongod --dbpath /data/db/
+sudo chown 'id -u' /data/db
+sudo chown 'id u' /data/db
+sudo mkdir -p /data/db/
+node
+mongod --dbpath /data/db
+mkdir -p /data/db
+mongod --dbpath /Desktop/app/
+mongod --dbpath /app
+mongod --dbpath /srv/mongodb
+mongo
+quit()
+npm start
+npm install
+cd angular-seed
+git clone https://github.com/angular/angular-seed.git
+git
+git clone git@github.com:angular/angular-seed.git
+cd Development
+mv index.ejs /redditClone/views
+mv index.ejs redditClone/views/
+mv index.js redditClone/views
+mv index.ejs.html index.ejs
+cd Desktop/RedditClone
+cd models
+mkdir models
+npm install --save mongoose
+cd redditClone
+express --ejs redditClone
+sudo npm install -g express-generator
+cd..
+cd.
+..cd
+. cd
+.cd
+.. cd
+cd RedditClone
+express --ejs RedditClone
+npm install express-generator
+npm install -g express -generator
+npm install -g express-generator
+redis-cli
+redis-server
+brew install redis
+git status
+git commit -m "adding more stuff to git"
+git add .
+git commit -m "add stuff to public server"
+git add . -m "adding stuff to public server"
+git add
+node app
+vim app.js
+vim lib/broadcast.js
+vim models/badges.js
+vim controllers/badges.js
+touch lib/broadcast.js
+touch lib/socket.js
+cd pubsub
+cd .
+vim public/js/souptobits.js
+git init
+gs
+curl http://code.jquery.com/jquery-1.11.2.min.js > public/js/jquery.js
+mkdir public/css
+mkdir public/js
+vim lib/subscribe.js
+touch app.js
+mkdir public
+mkdir lib
+npm install axon express socket.io request --save
+npm init
+clear
+c
+curl http://localhost:8000/badges
+curl http//localhost:8000/badges
+curl -X POST http://localhost:8000 -H "content-type: application/json" -d '[{"badge_id":"foo bar badge"}]'
+curl -X POST http://localhost:8000 > -H "content-type: application/json" > -d '[{"badge_id":"foo bar badge"}]'
+curl -i -X POST http://localttp://localhost:8000
+curl -i -X POST http://localhost:8000
+python --version
+pip -version
+pip --version
+curl -X POST http://localhos://localhost:8000
+curl -X POST -d app.js http://localhost:8000
+curl http://localhost:8080
+curl -x http://localhost:8080
+curl -d http://localhost:8080
+curl --app.js http://localhost:8080
+http POST http://localhost:8080
+cd webserver
+vim controllers/badge.js
+curl -i -X http://localhost:8000
+curl -i -X http:localhost:8000
+fg
+mkdir controllers
+vim .app.js
+vim .gitignore
+cat node_modules/express/package.json
+cat npm_modules/express/package.json
+cat package.json
+vim package.json
+npm install express axon redis underscore --save
+npm install express axon redis underscore
+rm -r my_first_repository
+rf -r my_first_repository
+git init my_first_repository
+git push -u origin master
+git remote add origin git@github.com:jvald8/souptobitspubsub.git
+git add remote git@github.com:jvald8/souptobitspubsub.git
+ssh https://github.com/jvald8/souptobitspubsub.git
+git remote add git remote add github git@github.com:jvald8/Websites
+git@github.com:jvald8/souptobitspubsub.git
+ssh git@github.com:jvald8/souptobitspubsub.git
+ssh jvald8@github.com
+git inti
+mkdir webserver
+mkdir pubsub
+cd soup
+mkdir soup
+cd codeschool
+mkdir codeschool
+cd Websites
+mkdir Websites
+bandit5@bandit.labs.overthewire.org
+ssh bandit4@bandit.labs.overthwire.org
+bandit3@bandit.labs.overthwire.org
+bandit2@bandit.labs.overthewire.org
+git checkout master
+git checkout 48c3e8
+git log
+cd ./my_really_cool_project
+git commit -m "Changes to file2"
+git add file2
+git commit -m "Change file1"
+git add file1
+nano file2
+nano file1
+git commit -m "Add new project files"
+cd jonathanringvald
+cd Users
+cd ./
+git commit
+git add
+git add -a
+git commit -a -m "Add project mission statement"
+nano README
+ls-a
+git add README
+rm -r my_even_cooler_project/.git
+mv my_first_repository/ my_even_cooler_project
+touch file3
+touch file2
+touch file1
+mkdir my_really_cool_project
+cd my_first_repository
+ssh bandit5@banditlabs.overthewire.org
+ssh jonathanringvald@bandit.labs.overthewire.org
+jonathanringvald@bandit.labs.overthewire.org
+node --version
+make && make install
+./configure --prefix=$HOME/.node
+cd node
+cd node-v0.10.35.tar.gz
+tar xvf node-v0.10.35.tar.gz
+curl -O http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+gcc --version
+gcc
+gcc -h
+gcc help
+gcc -V
+python -V
+python -h
+python -version
+which node && which npm
+brew install curl
+brew install mongodb
+brew doctor
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
