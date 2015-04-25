@@ -53,7 +53,10 @@ cd /
 cd ~
 curl --help
 git --version
+
+# finds the file path of git
 which git
+
 echo $host
 echo $hostname
 echo $histsize
