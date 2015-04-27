@@ -17,6 +17,7 @@ git commit -m
 -m is always needed, but if it's not included a file will open up for you to write in a message
 
 git -rm --cached <file>
+<<<<<<< HEAD
 
 git branch
 
@@ -43,3 +44,5 @@ Can i add my changes? It's like sending it to the boss and he'll check it out an
 git branch -d deletes a branch locally.
 
 
+=======
+>>>>>>> 0b1606cf03f2cb76f9b25cad835e822848217b62
